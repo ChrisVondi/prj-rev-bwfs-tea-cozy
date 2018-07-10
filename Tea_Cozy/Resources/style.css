@@ -1,0 +1,171 @@
+body{
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/*Header*/
+header{
+  display: flex;
+  align-items: center;
+  position:fixed;
+  width: 100%;
+  height: 69px;
+  border: 1px solid seashell;
+  background-color: black;
+}
+
+header nav{
+  padding-left: 500px;
+  text-decoration: underline;
+
+}
+
+header span{
+  margin-left: 20px;
+
+}
+
+header img{
+height: 50px;
+padding-left: 10px;
+}
+
+header a{
+  color: white;
+}
+
+/*Body*/
+.body{
+  color: white;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.background-two{
+  background-color: black;
+  width: 1200px;
+}
+
+.tea{
+width: 1200px;
+
+}
+.teatwo{
+  display: flex;
+  flex-flow: row wrap;
+  margin: 10px;
+}
+
+.teatwo img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.berryblitz{
+  display: block;
+}
+.spicedrum{
+  display: block;
+}
+.donuts{
+  display: block;
+}
+.myrtle{
+  display: block;
+
+}
+.bedford{
+  display: block;
+}
+
+.toprow{
+  display: flex;
+  justify-content: center;
+  padding-left: 100px;
+}
+
+.bottomrow{
+  display: flex;
+  justify-content: center;
+  padding-left: 250px;
+}
+
+/* Locations*/
+.location{
+
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  background-size: cover;
+  align-items: center;
+
+}
+.title h3{
+  display:flex;
+justify-content: center;
+padding-bottom: 15px;
+
+}
+.box1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+}
+.box2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+}
+.box3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  opacity: 1;
+}
+
+.backgroundbox1{
+  display: flex;
+  background-color: black;
+  height: 300px;
+
+}
+.backgroundbox2{
+  display: flex;
+  background-color: black;
+  height: 300px;
+
+}
+.backgroundbox3{
+  display: flex;
+  background-color: black;
+  height: 300px;
+
+}
+
+.backgroundboxcontainer{
+  display: flex;
+  justify-content: center;
+
+}
+
+footer{
+  height: 200px;
+}
+
+.copyright{
+  text-align: left;
+  padding-left: 20px;
+}
